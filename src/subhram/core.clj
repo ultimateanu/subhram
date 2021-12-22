@@ -10,8 +10,8 @@
          :text "Click Me"
         ;;  :listen [:action (fn [event](seesaw/alert "Click!" ))]
          :listen [:action (fn [event]
-            (let [chosenFile (seesaw.chooser/choose-file)]
-              (println "Chose files:" (str chosenFile)))
+            (let [chosenFile (seesaw.chooser/choose-file :multi? true :selection-mode :files-and-dirs)]
+              (println "Files chosen:" chosenFile))
             ;; (seesaw.chooser/choose-file)
             )]
          ))
