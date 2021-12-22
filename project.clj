@@ -7,5 +7,6 @@
                  [seesaw "1.5.0"]]
   :main ^:skip-aot subhram.core
   :target-path "target/%s"
+  :plugins [[lein-cljfmt "0.8.0"]]
   :profiles {:uberjar {:aot :all
                        :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})

@@ -20,3 +20,10 @@ FIXME: listing of options this app accepts.
 ## Examples
 
 ...
+
+## Dev
+Check formatting:  
+>`lein cljfmt check src/subhram/core.clj`
+
+Fix formatting:  
+>`lein cljfmt fix src/subhram/core.clj`
