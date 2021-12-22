@@ -1,6 +1,7 @@
 # subhram
 
-FIXME: description
+[![test](https://github.com/ultimateanu/subhram/actions/workflows/test.yml/badge.svg)](https://github.com/ultimateanu/subhram/actions/workflows/test.yml)
+
 
 ## Installation
 
